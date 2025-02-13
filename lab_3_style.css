@@ -1,0 +1,13 @@
+/* for header and footer */
+#bar{
+    /* text algined to center */
+    text-align: center;
+    /* diff color than the rest of the page */
+    color: white;
+    background-color: gray;
+    /* must have margin and padding */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    clear: both;
+}
