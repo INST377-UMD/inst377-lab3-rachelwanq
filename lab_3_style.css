@@ -1,0 +1,93 @@
+/* external CSS file */
+/* for header and footer */
+#bar{
+    /* text algined to center */
+    text-align: center;
+    /* diff color than the rest of the page */
+    color: white;
+    background-color: gray;
+    /* must have margin and padding */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    clear: both;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+/* Nav */
+#main-nav{
+    background-color: blue;
+    text-align: center;
+}
+
+#main-nav ul a{
+    color: white;
+}
+
+#main-nav ul{
+    display: flex;
+}
+
+/* hover state */
+#main-nav li:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+/* removing bullet points*/
+#main-nav ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+/* norm textbox size */
+#name{
+    width: 100px;
+}
+/* when focused, textbox increases */
+#name:focus{
+    width: 150px;
+}
+
+.main-container{
+    /* custom font family*/
+    font-family:monospace;
+}
+/* main content */
+/* on same line */
+.chosing{
+    float: left;
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+    /* % width for main content */
+    width:70%;
+    /* margin and padding for main content*/
+    margin: 0px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+/* sidebar */
+#rules{
+    text-align: center;
+    /* color diff than rest of page */
+    background-color: green;
+    float: right;
+    /* % width for sidebar */
+    width: 25%;
+    /* margin and padding for sidebar */
+    margin-right: 10px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/*hover changes background color*/
+#rules:hover{
+    background-color: greenyellow;
+}
+
